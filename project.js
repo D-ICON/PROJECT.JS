@@ -1,8 +1,10 @@
-function reverseArray(arr) {
-  return arr.slice().reverse();
+function sortStrings(arr) {
+  return arr.slice().sort();
 }
-const numbers = [1,2,3,4,5];
-console.log(reverseArray(numbers));
+
+const fruits = ["orange", "apple", "banana", "grape", "mango"];
+console.log(sortStrings(fruits));
+
 
   
   
